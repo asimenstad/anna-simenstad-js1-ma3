@@ -1,6 +1,6 @@
 .loader {
-  width: 100%;
-  margin-top: 50%;
+  width: 200%;
+  margin-top: 50vh;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -36,7 +36,7 @@
   gap: 10px;
 }
 
-.api_results div {
+.result_container {
   background-color: #eee;
   padding: 10px;
 }
