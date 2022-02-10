@@ -29,3 +29,14 @@
     transform: translateY(-50px);
   }
 }
+
+.api_results {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.api_results div {
+  background-color: #eee;
+  padding: 10px;
+}

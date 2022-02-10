@@ -19,9 +19,9 @@ async function fetchAPI() {
       const rating = allResults[i].rating;
       const tags = allResults[i].tags;
 
-      html.innerHTML += `<div>Name: ${name}</div>
-    <div>Rating: ${rating}</div>
-    <div>Number of tags: ${tags.length}</div>`;
+      html.innerHTML += `<div class="result_container"><h2>${name}</h2>
+    <p>Rating: ${rating}</p>
+    <p>Number of tags: ${tags.length}</p></div>`;
     }
   } catch (error) {
     html.innerHTML = "An error occurred";
